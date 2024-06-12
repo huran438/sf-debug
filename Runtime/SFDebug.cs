@@ -8,7 +8,7 @@ namespace SFramework.Debug.Runtime
     {
         public static bool IsDebug { get; private set; }
 
-        private static bool CanLog { get; } = !Application.isPlaying || IsDebug;
+        private static bool CanLog => !Application.isPlaying || IsDebug;
         
         [StringFormatMethod("message")]
         public static void Log(string message, params object[] args)
