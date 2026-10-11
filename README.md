@@ -2,8 +2,6 @@
 
 # SF Debug
 
-[Documentation website](https://docs.secretplace.studio/#sf-debug)
-
 ![Package](https://img.shields.io/badge/UPM-sp.sframework.debug-5865f2) ![Version](https://img.shields.io/badge/version-1.0.0-5865f2)
 
 SF Debug wraps Unity logging with a runtime debug flag. Use it to control ordinary log messages during Play Mode and player execution, while keeping exception reporting available.
